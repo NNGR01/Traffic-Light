@@ -36,3 +36,82 @@
     transform: rotate(360deg);
   }
 }
+
+.Semaforo{
+  height: 560px;
+  width: 300px;
+ background-color: grey;
+ justify-content: center;
+ border-top-left-radius: 20px;
+ border-top-right-radius: 20px;
+ border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+}
+.rojo{
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(63, 8, 8);
+  margin-left: 80px;
+  margin-top: 20px;
+  border-radius: 100%;
+  
+}
+.amarillo{
+  width: 150px;
+  height: 150px;
+  background-color: rgb(66, 85, 23);
+  margin-left: 80px;
+  margin-top: 20px;
+  border-radius: 100%;
+}
+
+.verde{
+  width: 150px;
+  height: 150px;
+  background-color: rgb(11, 54, 18);
+  margin-left: 80px;
+  margin-top: 20px;
+  border-radius: 100%;
+}
+.rojoselected{
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  margin-left: 80px;
+  margin-top: 20px;
+  border-radius: 100%;
+}
+.amarilloselected{
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+  margin-left: 80px;
+  margin-top: 20px;
+  border-radius: 100%;
+}
+.verdeselected{
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  margin-left: 80px;
+  margin-top: 20px;
+  border-radius: 100%;
+}
+.poste{
+  display: flex;
+  justify-content: center;
+  width: 70px;
+  height: 50px;
+  background-color: grey;
+  margin-left: 10px;
+
+ 
+}
